@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/desolate-depths", {
+mongoose.connect("mongodb://localhost/arcane-wildwood", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
