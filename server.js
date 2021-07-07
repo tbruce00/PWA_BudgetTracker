@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/", {
+mongoose.connect("mongodb://localhost/desolate-depths", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
