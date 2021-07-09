@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/arcane-wildwood", {
+mongoose.connect("mongodb://localhost/shielded-inlet", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
