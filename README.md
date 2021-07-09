@@ -1,11 +1,21 @@
 # PWA Budget Tracker
 
-## Introduction
+## Description
 
 ## Installation
 
+The following packages need to be run through the CLI.
+    * Mongoose
+    * Morgan
+    * Compression
+    * Express
+    * Lite-Server
+
 ## Usage
 
+To use the application follow the Heroku Link here
+
+[!TrackerMainPage]("/assets/images/landingpage.png")
 ## Contribution
 
 Trevor Bruce

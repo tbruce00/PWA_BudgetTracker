@@ -1,7 +1,7 @@
 let db;
 let budgetVersion;
 
-// Create a new db request for a "budget" database.
+// Create a new db request for the transaction database.
 const request = indexedDB.open('dbTransaction', budgetVersion || 21);
 
 request.onupgradeneeded = function (e) {
@@ -26,10 +26,10 @@ request.onerror = function (e) {
 function checkDatabase() {
   console.log('check db invoked');
 
-  // Open a transaction on your BudgetStore db
+  // Open a transaction on your Transaction db
   let transaction = db.transaction(['TransactionStore'], 'readwrite');
 
-  // access your BudgetStore object
+  // access your TransactionStore object
   const store = transaction.objectStore('TransactionStore');
 
   // Get all records from store and set to a variable
@@ -51,7 +51,7 @@ function checkDatabase() {
         .then((res) => {
           // If our returned response is not empty
           if (res.length !== 0) {
-            // Open another transaction to BudgetStore with the ability to read and write
+            // Open another transaction to TransactionStore with the ability to read and write
             transaction = db.transaction(['TransactionStore'], 'readwrite');
 
             // Assign the current store to a variable
@@ -79,10 +79,10 @@ request.onsuccess = function (e) {
 
 const saveRecord = (record) => {
   console.log('Save record invoked');
-  // Create a transaction on the BudgetStore db with readwrite access
+  // Create a transaction on the TransactionStore db with readwrite access
   const transaction = db.transaction(['TransactionStore'], 'readwrite');
 
-  // Access your BudgetStore object store
+  // Access your TransactionStore object store
   const store = transaction.objectStore('TransactionStore');
 
   // Add record to your store with add method.
