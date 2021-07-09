@@ -15,7 +15,9 @@ The following packages need to be run through the CLI.
 
 To use the application follow the Heroku Link here
 
-[!TrackerMainPage]("/assets/images/landingpage.png")
+[!TrackerMainPage](/assets/images/landingpage.png)
+
+
 ## Contribution
 
 Trevor Bruce
