@@ -17,6 +17,7 @@ To use the application follow the Heroku Link <a href=" https://shielded-inlet-6
 
 ![TrackerMainPage](/assets/images/landingpage.png)
 
+![TrackerBudget](/assets/images/untitled.png)
 
 ## Contribution
 
