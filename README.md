@@ -13,7 +13,7 @@ The following packages need to be run through the CLI.
 
 ## Usage
 
-To use the application follow the Heroku Link here
+To use the application follow the Heroku Link <a href=" https://shielded-inlet-66273.herokuapp.com" target=_blank>here</a>
 
 [!TrackerMainPage](/assets/images/landingpage.png)
 
