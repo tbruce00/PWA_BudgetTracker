@@ -17,7 +17,9 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb://localhost/shielded-inlet", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useCreateIndex: true,
+  useUnifiedTopology: true,
 });
 
 // routes
