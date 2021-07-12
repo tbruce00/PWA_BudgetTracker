@@ -15,7 +15,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/shielded-inlet", {
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost/shielded-inlet", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useCreateIndex: true,
