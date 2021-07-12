@@ -7,6 +7,7 @@ The user will be able to enter transactions offline that will then populate once
 ## Installation
 
 The following packages need to be run through the CLI using NPM install. 
+
     * Mongoose
     * Morgan
     * Compression
@@ -15,7 +16,7 @@ The following packages need to be run through the CLI using NPM install.
 
 ## Usage
 
-To use the application follow the Heroku Link <a href=" https://shielded-inlet-66273.herokuapp.com" target=_blank>here</a>
+To use the application follow the Heroku Link <a href=" https://shielded-inlet-66273.herokuapp.com" target="_blank">here</a>
 
 ![TrackerMainPage](/assets/images/landingpage.png)
 
