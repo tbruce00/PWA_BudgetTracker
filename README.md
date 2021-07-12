@@ -20,7 +20,7 @@ To use the application follow the Heroku Link <a href=" https://shielded-inlet-6
 
 ![TrackerMainPage](/assets/images/landingpage.png)
 
-![TrackerBudget](/assets/images/untitled.png)
+![TrackerBudget](/assets/images/Untitled.png)
 
 ## Contribution
 
@@ -33,4 +33,5 @@ Trevor Bruce
 ## Contact
 
 <a href="https://github.com/">Github</a>
+
 <a href="mailto:tbnyk03@gmail.com">E-Mail</a>
